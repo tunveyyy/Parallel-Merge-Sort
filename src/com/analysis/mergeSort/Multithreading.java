@@ -4,13 +4,14 @@ public class Multithreading implements Runnable {
     private int maxThreadCount;
     private int minSize;
 
-    public Multithreading(int[] a,  int maxThreadCount) {
+    public Multithreading(int[] a,  int maxThreadCount, int minSize) {
         this.a = a;
         this.maxThreadCount = maxThreadCount;
+        this.minSize = minSize;
     }
 
     public void run() {
-        MergeSort.parallelMergeSort(a, maxThreadCount);
+        MergeSort.parallelMergeSort(a, maxThreadCount, minSize );
     }
 }
 
