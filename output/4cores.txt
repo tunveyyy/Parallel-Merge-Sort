@@ -1,4 +1,4 @@
-/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54066:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/tunveyyy/Desktop/MultiThreadingMergeSort/out/production/MultiThreadingMergeSort com.analysis.mergeSort.MergeSort
+
  Number of threads: 4
 _________________________________________________________
 |No of Elements |Multi-threading Time| Normal Time 	 	|
@@ -22,4 +22,3 @@ _________________________________________________________
 |  65536000 	|   3670 ms 		 |       5380 ms 	|
  --------------------------------------------------------
 
-Process finished with exit code 0
