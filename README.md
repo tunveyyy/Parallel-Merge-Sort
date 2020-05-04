@@ -1,8 +1,18 @@
 ##What is this?
 This program implements parallel sorting program using merge sort. Parallelism is achieved via multi-threading.
 ## How to run the project
+Option 1
 - Download the jar file
 - Run the jar file as `java -jar MultiThreadingMergeSort.jar <inputfile.csv> <minimumArraySize> <maxThreads>`
+
+Option 2
+- Open in an IDE
+- In the top right corner you will see an option to run the file. Hit the button
+- Go to Edit configuration and under Program arguments enter the command line arguments
+- Ensure the Project compiler output points to `/Parallel-Merge-Sort/out`
+- Ensure that Project SDK is set to 12 `[ File -> Project Structure -> Project SDK]`
+- Run the file
+
 
 ##Input parameters
 Accepted via command line arg: 
