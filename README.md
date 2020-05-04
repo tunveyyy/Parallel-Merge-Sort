@@ -1,4 +1,4 @@
-## What is this?
+## Parallel Merge Sort
 This program implements parallel sorting program using merge sort. Parallelism is achieved via multi-threading.
 ## How to run the project
 **Option 1**
