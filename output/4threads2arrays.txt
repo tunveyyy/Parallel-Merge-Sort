@@ -1,4 +1,4 @@
-Number of threads: 4
+Number of threads: 4 | Minimum Array Size: 2
 ____________________________________________________________
 |No of Elements    |Multi-threading Time| Normal Time 	    |
 |------------------|--------------------|-------------------|
