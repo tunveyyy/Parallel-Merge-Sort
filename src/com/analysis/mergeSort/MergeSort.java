@@ -9,7 +9,6 @@ public class MergeSort {
     public static void main(String[] args) throws Throwable {
         int LENGTH = 1000;   // initial length of array to sort
         int RUNS   =  17;   // how many times to grow by 2?
-        System.out.println(" Number of threads: 4");
         System.out.println("_________________________________________________________");
         System.out.println("|No of Elements |Multi-threading Time| Normal Time \t \t|");
         System.out.println("|---------------|--------------------|------------------|");
@@ -39,7 +38,7 @@ public class MergeSort {
 
         public static void parallelMergeSort(int[] a){
         // int cores = Runtime.getRuntime().availableProcessors();
-            int cores = 4;
+            int cores = 12;
             parallelMergeSort(a, cores);
         }
 
