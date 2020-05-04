@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="MultiThreadingMergeSort:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/MultiThreadingMergeSort_jar</output-path>
-    <root id="archive" name="MultiThreadingMergeSort.jar">
-      <element id="module-output" name="MultiThreadingMergeSort" />
-    </root>
-  </artifact>
-</component>
