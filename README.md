@@ -1,11 +1,11 @@
-##What is this?
+## What is this?
 This program implements parallel sorting program using merge sort. Parallelism is achieved via multi-threading.
 ## How to run the project
-Option 1
+**Option 1**
 - Download the jar file
 - Run the jar file as `java -jar MultiThreadingMergeSort.jar <inputfile.csv> <minimumArraySize> <maxThreads>`
 
-Option 2
+**Option 2**
 - Open in an IDE
 - In the top right corner you will see an option to run the file. Hit the button
 - Go to Edit configuration and under Program arguments enter the command line arguments
@@ -14,13 +14,13 @@ Option 2
 - Run the file
 
 
-##Input parameters
+## Input parameters
 Accepted via command line arg: 
 - Array of numbers to be sorted which are present in a file. The file has to be in the same directory as Application.java
 - Minimum size of the array which to use multithreading.
 - Maximum number of threads to be created.
     
-##Output:
+## Output:
 
 Number of threads: 4  Minimum Array Size: 2
 
@@ -45,13 +45,13 @@ Number of threads: 4  Minimum Array Size: 2
 |  65536000    	   |   3670 ms 		    |       5380 ms 	|
 --------------------------------------------------------------
 
-##Unit testing:
+## Unit testing:
 
 
 - Code Snippet for unit testing is commented out in Application.java where a set of random arrays were generated for testing.
 - Uncomment the file to generate data.
 
-##Observations :
+## Observations :
 - We could observe that for smaller size of data, multithreading is an expensive operation as it needs more time to create threads than to  run the program on main thread.
 - The real advantage of parallelism is seen when the size of input increases. With increased size, it becomes difficult to perform sorting and multithreading will help in dividing the work and solve it faster. The attached output shows the same trend.
 - The number of threads should ideally be maxed out to number of cores in the system to see the effect of multithreading. If the number of threads extends beyond the cores, then multi-threading will be provided by the OS and the performance varies from machine to machine.
