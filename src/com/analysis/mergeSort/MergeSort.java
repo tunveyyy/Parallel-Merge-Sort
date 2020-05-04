@@ -81,9 +81,5 @@ public class MergeSort {
 }
 /*
 References: https://courses.cs.washington.edu/courses/cse373/13wi/lectures/03-13/26-parallel-algorithms.pdf
-TODO:
-2. Student supplied tests are present
-3. Student supplied test include answers in unit tests or comments
-4. Includes timing with different configuration settings
- */
+*/
 
