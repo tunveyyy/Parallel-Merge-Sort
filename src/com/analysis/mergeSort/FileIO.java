@@ -2,7 +2,6 @@ package com.analysis.mergeSort;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.util.*;
 
 public class FileIO {
